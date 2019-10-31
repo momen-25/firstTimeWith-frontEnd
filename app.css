@@ -1,0 +1,569 @@
+body {
+    background-color: #fff;
+    height: 1500px;
+}
+
+.cont{
+    width:1170px;
+    margin: auto;
+}
+.header .slider {
+    background-image: url(pexels-photo-116025.x14167.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    
+    height: 600px;
+    text-align: center;
+    
+}
+
+
+
+.header .slider .intro  {
+    height: 600px;
+    text-align: center;
+    padding-top: 320px;
+    
+
+        
+        
+}
+
+.header .slider .intro h2 {
+    font-size: 50px;
+    margin: 0px auto;
+    border-bottom: 3px solid #fff;
+    border-top: 3px solid #fff;
+    width: 650px;
+    color: #fff;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    display: none;
+}
+
+.header .slider .intro button {
+    color: #fff;
+    background: none;
+    border-radius: 7px;
+    
+    margin-top: 20px;
+    font-size: 25px;
+    border: 2px solid #fff;
+    font-weight:  bold;
+    padding: 10px 20px;
+    display: none;
+}
+.header .navbar{
+    background-color: #252f41;
+    color: #fff;
+    overflow: hidden;
+    
+}
+.header .navbar h2{
+    text-transform: uppercase;
+    float: left;
+    color: azure;
+}
+.header .navbar h2 span {
+    
+    color: #2ecc71;
+}
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0px;
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li {
+    float: left;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.header .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+    color: #2ecc71;
+}
+
+.sec2{
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+}
+.sec2 .box{
+    float: left;
+    width: 33.33333333333333333%;
+    height: 150px;
+    overflow: hidden;
+    
+    
+}
+.sec2 .box h2 {text-transform: uppercase;
+    color: #444;
+
+}
+
+.sec2 .box p {
+    line-height: 1.7;
+    color: #888;
+    padding-right: 15px;
+   
+    
+    
+}
+
+.about-us {
+    background-color: #f2f2f2;
+    overflow: hidden;
+}
+
+.about-us .img {
+    
+    float: left;
+    width: 40%;
+    
+}
+
+
+.about-us .img img {
+  
+    border-radius: 5px;
+    height: 295px;
+    width: 100%;
+    margin-bottom: -4px
+        
+    
+}
+.about-us .info{
+    float: left;
+    width: 60%;
+
+}
+
+.about-us .info h2 {
+    margin: 40px 0 20px 40px;
+    color: #555;
+    
+}
+
+.about-us .info > p {
+    margin: 0 0 10px 40px;
+    line-height: 1.7;
+    color: #666;
+    
+}
+
+
+.about-us .info .sec3 {
+ 
+    overflow: hidden;
+    
+}
+.about-us .info .sec3 > div {
+    float: left;
+    width: 50%;
+    min-height:100px;
+    
+}
+
+.about-us .info .sec3 .com{
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    
+}
+
+.about-us .info .sec3 .com h3{
+    color: #666;
+}
+.about-us .info .sec3 .com .photo img {
+    max-width:100%;
+    margin: 20px 12px 0 0 ;
+}
+
+.about-us .info .sec3 .com .photo{
+    width: 10%;
+    float: left;
+    margin-right: 3%;
+    margin-left: 4%;
+   
+}
+.about-us .info .sec3 .com .text{
+    float: left;
+    width: 83%;
+}
+
+.our-skils{
+    overflow: hidden;
+    margin-bottom: 25px;
+    
+    
+}
+
+.our-skils .skils {
+    float: left;
+    width: 46%;
+    margin-left: 4%;
+}
+
+.our-skils .skils h2 {
+    
+    margin: 40px 0 20px 0;
+    
+}
+
+.our-skils .skils p {
+    line-height: 1.5;
+    margin-left: 20px;
+    text-align: justify;
+    
+}
+
+.our-skils .skils p:last-of-type{
+    margin-top: 15px;
+}
+
+.our-skils .skils button{
+    border-radius: 7px;
+    border: 2px solid #2Dcc70;
+    background: none;
+    color: #2Dcc70;
+    width: 150px;
+    padding: 10px 30px;
+    margin-top: 35px;
+    margin-left: 20px
+    
+}
+
+.our-skils .progress{ 
+    float: left;
+    width: 50%;
+}
+
+.our-skils .progress .pro {
+    margin-left: 55px;
+}
+
+.our-skils .progress .pro div {
+    height: 25px;
+    background-color: #f2f2f2;
+}
+
+.our-skils .progress .pro div span {
+    display: block;
+    background-color: #2Dcc70;
+    text-align: right;
+    color: #fff;
+    line-height: 25px;
+    height: 100%;
+    width: 2%;
+}
+
+.our-skils .progress .pro div span p{
+    margin-right: 10px;
+    font-weight: bold;
+    display: none;
+}
+.app{
+    background-color: #f2f2f2;
+    padding-bottom: 30px; 
+    padding-top:30px ;
+    text-align: center;
+   
+}
+
+.app h2{
+    text-transform:capitalize;
+    margin-top: 10px;
+}
+
+.app h2 span {
+    color: #2Dcc70;
+    font-size: 32px;
+}
+
+.app p {
+    font-size: 20px;
+    color: #666;
+    line-height: 1.8;
+}
+
+.app button {
+    
+    border: 2px solid #2Dcc70;
+    background: none;
+    color: #2Dcc70;
+    width: 250px;
+    padding: 10px 30px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+  
+    
+}
+
+.our-cer{
+    overflow: hidden;
+    
+    
+}
+
+.our-cer .cer {
+    float: left;
+    width: 48%;
+    
+}
+
+
+.our-cer .cer h2 {
+    text-transform: capitalize;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    
+}
+
+.our-cer .cer p {
+    
+    color: #555;
+    line-height: 1.5;
+}
+
+
+
+.our-cer .cer-part2{ 
+    float: left;
+    width: 50%;
+    margin-left: 2%;
+    margin-top: 45px;
+}
+
+.our-cer .cer-part2 .cerrr {
+
+    margin-top: 90px;
+}
+
+.our-cer .cer-part2 .cerrr:last-of-type{
+    margin-top: 20px;
+} 
+
+.our-cer .cer-part2 .cerrr h3 {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.our-cer .cer-part2 .cerrr p{
+    
+  color: #555;
+}
+
+.our-cer .cer-part2 .cerrr div{
+    color: #fff;
+    background-color: #2Dcc70;
+    width:38px;
+    padding: inherit;
+}
+    .our-cer .cer-part2 .cerrr #a {
+    color: #fff;
+    background-color: #2Dcc70;
+    width:76px;
+    padding: inherit;
+    
+}
+
+ .m p {
+    
+    margin-left: 2px;
+}
+
+.our-work{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+.our-work h2{
+    text-transform: capitalize;
+   
+
+}
+
+
+.our-work h2 span {
+    
+    color: #2Dcc70;
+  
+}
+
+.our-work p {
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #555;
+    
+}
+
+.our-work .work {
+   margin-bottom: 20px;
+   overflow: hidden;
+}
+
+.our-work .work > div {
+    
+    float: left;
+    width: 33.33333333%;
+    margin-bottom: 15px;
+}
+
+.our-work .work > div img {
+    border-radius: 15px;
+    width: 93%;
+}
+
+.contact-us {
+    background-color: #252f41;
+    overflow: hidden;
+    
+}
+
+.contact-us .contact {
+    float: left;
+    width: 44%;
+    margin-top: 50px;
+    
+    
+}
+
+.contact-us .contact h2 {
+    margin-top: 30px;
+    color: #d4d4d4;
+    text-transform:uppercase;
+    margin-bottom: 30px
+    
+    
+    
+}
+
+.contact-us .contact p {
+    
+    color: #d4d4d4;
+    line-height: 1.7;
+    font-size: 17px;
+    margin-bottom: 40px;
+    
+}
+
+
+
+.contact-us .contact p .f1 {
+    font-size: 40px;
+    margin: 0 6px 0 4px ;
+    font-weight: bold;
+    
+}
+
+.contact-us .contact .f2 {
+    color: #fcfcfc;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-right: 25px;
+    
+}
+
+.contact-us .form {
+    color: #fff;
+    float:left;
+    width: 50%;
+    margin-top: 50px;
+    padding-left: 6%;
+    padding-top: 40px;
+}
+
+.contact-us .form label {
+    display: block;
+    color: #d4d4d4;
+    text-transform: capitalize;
+    
+}
+
+.contact-us .form input,.contact-us .form textarea {
+    width: 99%;
+    height: 40px;
+    margin-bottom: 50px;
+    margin-top: 12px;
+    background-color: #5b5e64;
+    border: none;
+    border-radius: 5px;
+    color: #d4d4d4;
+    margin-left: 1%;
+    
+    
+}
+
+.contact-us .form .text {
+    display: block;
+    width: 99%;
+    height: 200px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.contact-us .form button {
+    background: none;
+    color: #fff;
+    width: 170px;
+    height: 40px;
+    font-size: 17px;
+    border: none;
+    margin-bottom: 70px;
+    background-color:  #140f1f;
+    color: #d4d4d4;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 7px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #140f1f;
+    padding: 20px 0px 20px 0 ;
+    text-align: center;
+    color:  #d4d4d4;
+  
+}
+
+.footer .i {
+    margin-top: 10px;
+
+}
+
+.footer i {
+    
+    z-index: 1;
+
+}
+
+.footer a {
+    
+ color:  #d4d4d4;    
+}
+
+.footer i:hover{
+    
+    cursor: pointer;
+    position: absolute;
+    font-size: 40px;
+}
+
+.footer div {
+    margin-top: 10px;
+}
